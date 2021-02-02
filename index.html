@@ -71,8 +71,13 @@
 
         function filterNames(){
             let filterValue = document.getElementById('filterInput').value.toUpperCase();
+
+            //GET NAMES UL
+            let ul = document.getElementById('names');
+            //GET LIS FROM UL
+            let li = ul.querySelectorAll('li.collection-item');
         }
-        
+
     </script>
 </body>
 
